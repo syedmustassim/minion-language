@@ -1,10 +1,12 @@
-
+body{
+    font-family: Inter, sans-serif;
+    margin: 0;
+}
 header{ 
     display: flex;
     background-image: linear-gradient(to right, #F59E0B, #FDE047);
     height: 90px;
     border-radius: 6px;
-    font-family: Inter, sans-serif;
 }
 
 .heading{
@@ -12,6 +14,29 @@ header{
     margin-left: 540px;
 }
 
+main{
+    margin: auto;
+    width: 70%;
+}
+
+#txt-input{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;  
+}
+
+button{
+    background-color: #FDE047;
+    display: grid;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 14px;      
+    padding: 1rem 2rem;
+    font-size: large;
+    font-family: "Karla", sans-serif;
+}
 
 #output{
     border: 1px solid black;
