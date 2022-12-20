@@ -6,7 +6,7 @@ header{
     display: flex;
     background-image: linear-gradient(to right, #F59E0B, #FDE047);
     height: 90px;
-    border-radius: 6px;
+    width: 100%;
 }
 
 .heading{
@@ -44,4 +44,19 @@ button{
     width: 80%;
     margin: 1rem;
     padding: 1rem;
+}
+
+footer{
+    font-size: large;
+    background-image: linear-gradient(to left, #F59E0B, #FDE047);
+    height: 110px;
+    margin-top: 30px;
+    padding: 1rem;
+    align-items: center;
+}
+
+footer > p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35px;
 }
